@@ -2,8 +2,24 @@
 ---
 
 @import "{{ site.theme }}";
-header.h1 {
-    background-image: url(/assets/images/doolittle_logo.jpg);
-    background-position: top center;
-    background-size: cover;
+header {
+    width: 500px;
+}
+
+section {
+    width: 300px;
+}
+
+body {
+    background-color: #1d282a;
+    color: #c6d1c1;
+}
+
+a {
+    color: #c0dbee;
+}
+
+h2,
+h3 {
+    color: #e3d073;
 }
